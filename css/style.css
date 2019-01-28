@@ -399,9 +399,16 @@ h1,h2,h3,h4,h5,h6,p{
 		border:none;
 	}
 
+@media screen and (max-width: 500px) {
+	.header-text {
+		white-space: wrap;
+		width: auto;
+	}
+}
+
 	.header-title, .text-description{
 		text-align: center;
-		width: auto;
+		width: 80%;
 	
 	}
 
